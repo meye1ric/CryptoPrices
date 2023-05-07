@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto Prices</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script/main.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style/main.css" />
+
+    <!-- Data Tables JQuery Plugin -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.js"></script>
+</head>
+<body>
+
+    <div id="banner">
+        <div id="bannerTitle">
+            <label>Crypto Prices (Demo App)</label>
+        </div>
+    </div>
+
+    <div style="clear:both; height:0px;"></div>                   
+
+    <div id="messageArea">
+        <label id="message" style="color:green; font-size:1.3em; font-weight:bold;"></label>
+        <label id="errorMessage" style="color:red; font-size:1.3em; font-weight:bold;"></label>
+    </div>
+
+    <div style="clear:both; height:20px;"></div>                   
+
+    <div id="inputAreaData2" style="float:left;">  
+        <button id="getAllButton" class="button" style="margin-left:70px;">Get All Prices</button>
+    </div>
+ 
+    <div style="clear:both; height:0px;"></div>                   
+
+    <div id="container" style="margin:0px; width:800px; float:left; font-family:Georgia, serif;">
+
+        <div id="subcontainer1" class="subcontainer">
+            <!-- <div id="subcontainerTitle1" class="subcontainerTitle">Prices </div> -->
+            <!-- <div style="clear:both; height:20px;"></div> -->
+            <div id="result"></div>
+        </div> 
+    </div> 
+
+    <div style="clear:both; height:10px;"></div>
+
+    <!-- <div id="resultArea" style="width:500px; margin-left:100px; margin-top:40px; float:left;">
+        <label style="font-weight:bold">Result:</label>
+        <div style="clear:both; height:20px;"></div>
+
+        <div id="resultAreaLabels" style="margin-right:10px; float:left;"></div>
+
+        <div id="resultAreaData" style="float:left; padding-top:0.5px;"></div>    
+    </div> -->
+
+</body>
+</html>
